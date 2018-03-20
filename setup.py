@@ -22,13 +22,14 @@ class PyTest(TestCommand):
 
 
 setup(
-    name='django-registration-redux',
+    name='django-registration',
     version=get_version().replace(' ', '-'),
     description='An extensible user-registration application for Django',
     long_description=open('README.rst').read(),
     author='Andrew Cutler',
     author_email='macropin@gmail.com',
-    url='https://github.com/macropin/django-registration',
+    url='https://github.com/janetuk/django-registration',
+    #url='https://github.com/macropin/django-registration',
     package_dir={'registration': 'registration'},
     packages=find_packages(exclude='test_app'),
     tests_require=['pytest-django'],
